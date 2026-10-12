@@ -1,0 +1,2 @@
+Feature branch for Jenkins Multibranch Pipeline lab.
+This branch verifies automatic branch discovery and CI execution.
