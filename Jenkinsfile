@@ -1,5 +1,10 @@
+
 pipeline {
     agent any
+
+    environment {
+        PATH = "C:\\Program Files\\Apache Maven\\apache-maven-3.9.16\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;${env.PATH}"
+    }
 
     stages {
         stage('Checkout') {
